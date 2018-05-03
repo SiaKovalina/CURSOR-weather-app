@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 left-side d-flex flex-column d-flex justify-content-between">
+                <div class="row">
+                    <div class="col-md-12 current-date" id="js-date"></div>
+                    <div class="col-md-12 location" id="js-place"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 temperature" id="js-temperature"></div>
+                    <div class="col-md-12" id="js-summary"></div>
+                </div>
+            </div>
+            <div class="col-md-8 right-side">
+                <div class="row">
+                    <div class="col-md-12 statistics">Statistics</div>
+                </div>
+                <div class="row text-center padding-btm">
+                    <div class="col-md-4">
+                        <i class="ion-waterdrop"></i>
+                        <p>Humidity</p>
+                        <div id="js-humidity"></div>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="ion-ios-paperplane"></i>
+                        <p>Wind speed</p>
+                        <div id="js-windspeed"></div>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="ion-thermometer"></i>
+                        <p>Pressure</p>
+                        <div id="js-pressure"></div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-6"><button id="js-prev" class="btn"><i class="ion-arrow-left-c"></i></button></div>
+                    <div class="col-md-6"><button id="js-next" class="btn"><i class="ion-arrow-right-c"></i></button></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
